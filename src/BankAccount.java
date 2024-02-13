@@ -8,18 +8,14 @@ public class BankAccount {
         balance = 0;
     }
 
-    // ********************************
     // DEPOSIT AND WITHDRAWAL METHODS
-    // ********************************
     public void deposit(double amount){
         balance += amount;
     }
     public void withdrawal(double amount){
         balance -= amount;
     }
-    // *********************
     // GETTERS AND SETTERS
-    // *********************
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
@@ -41,6 +37,7 @@ public class BankAccount {
         return accountID;
     }
 
+    // Get Balance
     public double getBalance(){
         return balance;
     }
